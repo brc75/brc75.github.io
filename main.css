@@ -1,0 +1,525 @@
+body {
+	font-family: "Segoe UI", serif;
+	background-image: url("images/background.jpg");
+}
+
+/* ----- end body ----- */
+
+/* ----- container ----- */
+
+#container {
+	position: relative;
+	width: 960px;
+	min-height: 700px;
+	border-radius: 10px;
+	box-shadow: 10px 10px 20px #555;
+	background: #A7B8D9;
+	margin: 5px auto;
+}
+
+/* ----- end container ----- */
+
+/* ----- header ----- */
+
+header {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 940px;
+	height: 90px;
+	border-radius: 10px;
+	background: #3B4259;
+	margin: 10px;
+}
+
+header h1 {
+	font-family: "Segoe UI", serif;
+	font-size: 30px; font-style: normal;
+	font-weight: bold; letter-spacing: 5px; color: #D9674E;
+	text-align: center;
+	margin: 10px 0px 0px 0px;
+}
+
+header h3 {
+	text-align: center;
+	margin: 0px 0px 10px 0px;
+	font-family: "Segoe UI", sans-serif; font-size: 16px;
+	color: #BF9775; letter-spacing: 2px;
+}
+
+/* ----- end header ----- */
+
+/* ----- nav menu ----- */
+
+nav {
+	position: absolute;
+	top: 100px;
+	left: 0px;
+	width: 940px;
+	height: 50px;
+	border-radius: 10px;
+	background: #3B4259;
+	margin: 10px;
+}
+
+nav  ul{
+	list-style: none;
+	float: right;
+}
+
+nav li{
+	float: left;
+	margin: 0px 10px;
+}
+
+nav li a:link, nav li a:visited {
+	font-family: "Segoe UI", sans-serif;
+	font-weight: bold;
+	display: block;
+	color: #D9674E;
+	text-decoration: none;
+}
+
+nav li a:hover, nav li a:active  {
+	color: #BF1534
+}
+
+nav li a.current {
+	color: #BF9775
+}
+
+nav li a.current:hover {
+	cursor: default;
+}
+
+/* ----- end nav menu ----- */
+
+/* ----- contentWrapper ----- */
+
+/* ----- index section ----- */
+
+#contentWrapper {
+	position: relative;
+	top: 170px;
+	left: 0px;
+	width: 940px;
+	min-height: 450px;
+	margin: 10px;
+}
+
+#contentWrapper #content {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 715px;
+	height: 450px;
+	border-radius: 10px;
+	background: #3B4259;
+}
+
+p em.bold  {
+	font-weight: bold;
+	color: #BF9775;
+}
+
+#content h2 {
+	font-family: "Segoe UI", sans-serif;
+	font-size: 20px;
+	color: #D9674E;
+	text-align: center;
+	margin: 25px auto;
+}
+
+img.image {
+	display: block;
+	float: right;
+	border-radius: 10px;
+	border: solid #3B4259;
+	margin: 0px 10px 5px 10px;
+}
+ 
+#content p {
+	font-family: "Segoe UI", sans-serif;
+	font-size: 14px;
+	text-indent: 20px;
+	text-align: justify;
+	letter-spacing: .6px;
+	line-height: 2.4ex;
+	color: #BF9775;
+	margin: 10px;
+}
+
+#content p a {
+	text-decoration: none;
+}
+
+/* ----- end index section ----- */
+
+/* ----- index aside ----- */
+aside {
+	display: block;
+	float: left;
+}
+aside #about {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 215px;
+	height: 450px;
+	border-radius: 10px;
+	background: #3B4259;
+}
+
+#about h3 {
+	font-family: "Segoe UI", sans-serif;
+	font-size: 16px;
+	color: #D9674E;
+	text-align: center;
+	margin: 20px;
+}
+
+#about p {
+	font-family: "Segoe UI", sans-serif;
+	font-size: 12px;
+	text-align: justify;
+	text-indent: 10px;
+	line-height: 2.4ex;
+	color: #BF9775;
+	float: left;
+	margin: 10px;
+}
+
+#about li {
+	font-family: "Segoe UI", sans-serif;
+	font-size: 12px;	
+	color: #BF9775;
+	margin: 5px;
+}
+
+#about p a {
+	text-decoration: none;
+}
+
+/* ----- end index aside ----- */
+
+/* ----- resume section ----- */
+
+#contentWrapper #resume {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 715px;
+	height: 450px;
+	border-radius: 10px;
+	background: #3B4259;
+}
+
+#resume h2 {
+	font-family: "Segoe UI", sans-serif;
+	font-size: 20px;
+	color: #D9674E;
+	text-align: right; 
+	margin: 20px 250px;
+}
+
+#resume p {
+	font-family: "Segoe UI", sans-serif;
+	font-size: 14px;
+	text-align: justify;
+	width: 680px;
+	color: #BF9775;
+	float: left;
+	margin: 10px 5px 10px 10px;
+}
+ 
+#resume p a {
+	text-decoration: none;
+}
+
+img.resumepic {
+	display: block;
+	float: right;
+	margin: 10px;
+	border-radius: 10px;
+	border: solid #3B4259;
+}
+
+/* ----- end resume section ----- */
+
+/* ---- resume aside ----- */
+
+#resumeSide {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 215px;
+	height: 450px;
+	border-radius: 10px;
+	background: #3B4259;
+}
+
+#resumeSide h3 {
+	font-family: "Segoe UI", sans-serif;
+	font-size: 18px;
+	color: #D9674E;
+	text-align: center;
+	margin: 15px 10px 10px 10px;
+}
+
+#resumeSide p {
+	font-family: "Segoe UI", sans-serif;
+	font-size: 14px;
+	text-align: justify;
+	color: #BF9775;
+	float: left;
+	margin: 10px;
+}
+
+#resumeSide p a {
+	text-decoration: none;
+}
+
+#resumeSide li {
+	font-family: "Segoe UI", sans-serif;
+	font-size: 12px;	
+	color: #BF9775;
+	margin: 5px;
+}
+
+/* ----- end resume aside ----- */
+
+/* ----- education section ----- */
+
+#edSection {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 715px;
+	height: 450px;
+	border-radius: 10px;
+	background: #3B4259;
+}
+
+#edSection h2 {
+	font-family: "Segoe UI", sans-serif;
+	font-size: 20px;
+	color: #D9674E;
+	text-align: center;
+}
+
+#edSection h3 {
+	font-family: "Segoe UI", sans-serif;
+	font-size: 14px;
+	color: #D9674E;
+	text-align: center;
+}
+
+#edSection p {
+	font-family: "Segoe UI", sans-serif;
+	font-size: 12px;
+	text-align: left;
+	width: 640px;
+	color: #BF9775;
+	float: left;
+	margin: 20px 5px 20px 5px;
+}
+
+table {
+	width: 690px;
+	margin: 10px;	
+}
+
+th td {
+	padding: 7px 10px 10px 10px;
+}
+
+th {
+	font-family: "Segoe UI", sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 11px;
+	color: #BF9775;
+	border-bottom: 2px solid #A0967D;
+	border-top: 1px solid #AFA793;
+	text-align: center;
+}
+
+td {
+	font-family: "Segoe UI", sans-serif;
+	color: #BF9775;
+	letter-spacing: 1px;
+	font-size: 12px;
+	border-bottom: 2px solid #A0967D;
+	text-align: center;
+}
+
+/* ----- end education section ----- */
+
+/* ----- education aside ----- */
+
+#edAside {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 215px;
+	height: 450px;
+	border-radius: 10px;
+	background: #3B4259;
+}
+
+#edAside h3 {
+	font-family: "Segoe UI", sans-serif;
+	font-size: 16px;
+	color: #D9674E;
+	text-align: center;
+	margin: 10px 10px 20px 10px;
+}
+
+#edAside p {
+	font-family: "Segoe UI", sans-serif;
+	font-size: 12px;
+	text-align: left;
+	color: #BF9775;
+	margin: 5px;
+}
+
+img.asidepic {
+	display: block;
+	margin: 10px auto;
+	border-radius: 10px;
+	border: solid #3B4259;
+}
+
+/* ----- end education aside ----- */
+
+/* ----- contact section ----- */
+
+#contactSec {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 715px;
+	height: 450px;
+	border-radius: 10px;
+	background: #3B4259;
+}
+
+#contactSec h2 {
+	font-family: "Segoe UI", sans-serif;
+	font-size: 20px;
+	color: #D9674E;
+	text-align: center;	
+}
+
+#contactSec p {
+	font-family: "Segoe UI", sans-serif;
+	font-size: 14px;
+	text-align: justify;
+	text-indent: 20px;
+	letter-spacing: .25px;
+	width: 680px;
+	color: #BF9775;
+	float: left;
+	margin: 10px;
+}
+ 
+#contactSec p a {
+	text-decoration: none;
+}
+
+/* ----- end contact section ----- */
+
+/* ----- contact aside ----- */
+
+#conAside {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 215px;
+	height: 450px;
+	border-radius: 10px;
+	background: #3B4259;
+}
+
+#conAside h3 {
+	font-family: "Segoe UI", sans-serif;
+	font-size: 16px;
+	color: #D9674E;
+	text-align: center;
+	margin: 20px 10px 10px 10px;
+}
+
+#conAside p {
+	font-family: "Segoe UI", sans-serif;
+	font-size: 14px;
+	text-align: center;
+	color: #BF9775;
+	float: left;
+	margin: 10px;
+}
+img.conPics {
+	display: inline-block;
+	right: 50px;
+	border-radius: 10px;
+	border: solid #3B4259;
+	margin: 10px;
+}
+	
+#conAside p a {
+	text-decoration: underline;
+}
+
+img.asidepic {
+	display: block;
+	margin: 10px auto;
+	border-radius: 10px;
+	border: solid #3B4259;
+}
+
+/* ----- end contact aside ----- */
+
+/* ----- end contentWrapper ----- */
+
+/* ----- footer ----- */
+
+#footer {
+	clear: both;
+	background: #3B4259;
+	padding: 5px;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	width: 930px;
+	height: 50px;
+	border-radius: 10px;
+	margin: 10px;
+}
+
+#footer p {
+	font-family: "Segoe UI", sans-serif;
+	font-size: 14px;
+	color: #BF9775;
+	margin: 0;
+	padding: 0;
+	text-align: center;	
+	
+}	
+
+/*#footer p a {
+	text-decoration: none;
+	position: fixed;
+}
+*/
+img.footerImage {
+	display: inline-block;
+	margin: auto;
+}
+/* ----- end footer ----- */
+
+
+
+
+
+
+
+
